@@ -1,0 +1,81 @@
+\documentclass{article}
+%\usepackage[latin1]{inputenc} % un package
+%\usepackage[T1]{fontenc}  
+\usepackage[français]{babel}
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\input{variables.tex}
+
+\begin{document}
+
+\begin{raggedleft}
+\newline Imosoweb\newline06.59.42.92.18\newline immosoweb@me.com\newline10 boulevard Louise Michelle\newline91000 EVRY CEDEX
+\end{raggedleft}
+
+\begin{flushright}
+\\\nomclient \prenom
+\\\numeroclient
+\\\emailclient
+\\\adresseclient
+\\\codecopstaleclient
+\\\villeclient
+\\Numéro client:\numeroclient
+
+\end{flushright}
+
+\begin{center}
+\textbf{ \huge{Facture n° \numerofacture}}
+\end{center}
+
+\vspace{0.5cm}
+\begin{flushleft}
+\\Objet:\objet
+\\Date d'émission:
+%\\Date d'expiration:
+\\Numéro de Facture:
+\end{flushleft}
+
+\vspace { 1cm } 
+\begin{center}
+\begin{tabular}{|p{3cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
+\hline
+Identifiant bien & Superficie & Tarif au m² & Total H.T. &Remise &TVA & Total T.T.C.  \\
+\hline
+\idbien & \surface & \prixcarre & \prixht & \remise & \tva & \prixttc
+& & & &
+& & & &
+& & & & 
+& & & & 
+& & & & \\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{flushright}
+\begin{tabular}{|p{4cm} c|}
+\hline
+Montant HT & \prixht €\\
+\hline
+Remise & \remise €\\
+\hline
+TVA & \tva \\
+\hline
+Montant TTC & \prixttc €\\
+\hline
+Frais de dossier & \fraisdedossier €\\
+\hline
+Net à payer & NT €\\
+\hline
+\end{tabular}
+\end{flushright}
+
+\vspace{1cm}
+\begin{flushleft}
+Bon pour accord le:
+\\Signature:
+\end{flushleft}
+
+\end{document}
+
+%\layout
+
+
