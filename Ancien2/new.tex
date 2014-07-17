@@ -1,0 +1,86 @@
+\documentclass{article}
+%\usepackage[latin1]{inputenc} % un package
+%\usepackage[T1]{fontenc}  
+\usepackage[français]{babel}
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\input{variables.tex}
+%\title{Devis}
+%\author{MMA}
+
+\begin{document}
+
+\begin{raggedleft}
+\newline Imosoweb\newline06.59.42.92.18\newline immosoweb@me.com\newline10 boulevard Louise Michelle\newline91000 EVRY CEDEX
+\end{raggedleft}
+
+\begin{flushright}
+\nomclient \prenom
+\numeroclient
+\\06.59.42.92.18
+\\imosoweb@me.com
+\\10 boulevard Louise Michelle
+\\91000 EVRY CEDEX
+\end{flushright}
+
+\begin{center}
+\president
+\textbf{ \huge{Facture}}
+\end{center}
+%\chead{DEV}
+%\title{DEVIS}
+%\part{Devis}
+%\chapter{Chapitre}
+%\section{Section}
+%\subsection{Une sous-section}
+\vspace{0.5cm}
+\begin{flushleft}
+Date d'émission:
+\\Date d'expiration:
+\\Numéro de Facture:
+\end{flushleft}
+
+\vspace { 1cm } 
+\begin{center}
+\begin{tabular}{|p{3cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
+\hline
+Identifiant bien & Superficie & Tarif au m² & Total H.T. &Remise &TVA & Total T.T.C.  \\
+\hline
+& & & & 
+& & & &
+& & & &
+& & & & 
+& & & & 
+& & & & \\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{flushright}
+\begin{tabular}{|p{4cm} c|}
+\hline
+Montant HT & M \\
+\hline
+Remise & R \\
+\hline
+TVA & T \\
+\hline
+Montant TTC & M \\
+\hline
+Frais de dossier & R \\
+\hline
+Net à payer & T \\
+\hline
+\end{tabular}
+\end{flushright}
+
+\vspace{1cm}
+\begin{flushleft}
+Bon pour accord le:
+\\Signature:
+\end{flushleft}
+
+\end{document}
+
+%\layout
+
+
